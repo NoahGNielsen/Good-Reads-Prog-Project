@@ -7,9 +7,7 @@
 
 ## Overview
 
-Coming Soon
-
-![App running — Majestic Herkules post](docs/assets/images/Screenshot%20of%20product.png)
+READ ME Coming Soon
 ## License
 
 Distributed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
