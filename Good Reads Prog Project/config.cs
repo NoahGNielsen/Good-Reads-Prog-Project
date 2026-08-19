@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Good_Reads_Prog_Project
 {
-    internal class config
+    public class Config
     {
         string DBAccessString = @"Data Source=XXXX;Initial Catalog=XXXX;Integrated Security=True;TrustServerCertificate=True";
     }

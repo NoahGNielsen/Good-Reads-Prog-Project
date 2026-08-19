@@ -28,12 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            fileSystemWatcher1 = new FileSystemWatcher();
+            ((System.ComponentModel.ISupportInitialize)fileSystemWatcher1).BeginInit();
+            SuspendLayout();
+            // 
+            // fileSystemWatcher1
+            // 
+            fileSystemWatcher1.EnableRaisingEvents = true;
+            fileSystemWatcher1.SynchronizingObject = this;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(12F, 30F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Text = "Form1";
+            BackgroundImageLayout = ImageLayout.None;
+            ClientSize = new Size(1896, 936);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
+            Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Good Books";
+            Load += Form1_Load;
+            ((System.ComponentModel.ISupportInitialize)fileSystemWatcher1).EndInit();
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private FileSystemWatcher fileSystemWatcher1;
     }
 }

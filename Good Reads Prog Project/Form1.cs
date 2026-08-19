@@ -6,5 +6,10 @@ namespace Good_Reads_Prog_Project
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
