@@ -28,33 +28,61 @@
         /// </summary>
         private void InitializeComponent()
         {
-            fileSystemWatcher1 = new FileSystemWatcher();
-            ((System.ComponentModel.ISupportInitialize)fileSystemWatcher1).BeginInit();
+            menuStrip1 = new MenuStrip();
+            minSideToolStripMenuItem = new ToolStripMenuItem();
+            anbefalingerToolStripMenuItem = new ToolStripMenuItem();
+            plusToolStripMenuItem = new ToolStripMenuItem();
+            menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
-            // fileSystemWatcher1
+            // menuStrip1
             // 
-            fileSystemWatcher1.EnableRaisingEvents = true;
-            fileSystemWatcher1.SynchronizingObject = this;
+            menuStrip1.ImageScalingSize = new Size(20, 20);
+            menuStrip1.Items.AddRange(new ToolStripItem[] { minSideToolStripMenuItem, anbefalingerToolStripMenuItem, plusToolStripMenuItem });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new Size(800, 28);
+            menuStrip1.TabIndex = 0;
+            menuStrip1.Text = "menuStrip1";
+            // 
+            // minSideToolStripMenuItem
+            // 
+            minSideToolStripMenuItem.Name = "minSideToolStripMenuItem";
+            minSideToolStripMenuItem.Size = new Size(79, 24);
+            minSideToolStripMenuItem.Text = "Min side";
+            // 
+            // anbefalingerToolStripMenuItem
+            // 
+            anbefalingerToolStripMenuItem.Name = "anbefalingerToolStripMenuItem";
+            anbefalingerToolStripMenuItem.Size = new Size(109, 24);
+            anbefalingerToolStripMenuItem.Text = "Anbefalinger";
+            // 
+            // plusToolStripMenuItem
+            // 
+            plusToolStripMenuItem.Name = "plusToolStripMenuItem";
+            plusToolStripMenuItem.Size = new Size(53, 24);
+            plusToolStripMenuItem.Text = "Plus ";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(12F, 30F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImageLayout = ImageLayout.None;
-            ClientSize = new Size(1896, 936);
-            FormBorderStyle = FormBorderStyle.FixedSingle;
-            MaximizeBox = false;
+            ClientSize = new Size(800, 450);
+            Controls.Add(menuStrip1);
+            MainMenuStrip = menuStrip1;
             Name = "Form1";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "Good Books";
-            Load += Form1_Load;
-            ((System.ComponentModel.ISupportInitialize)fileSystemWatcher1).EndInit();
+            Text = "Form1";
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private FileSystemWatcher fileSystemWatcher1;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem minSideToolStripMenuItem;
+        private ToolStripMenuItem anbefalingerToolStripMenuItem;
+        private ToolStripMenuItem plusToolStripMenuItem;
     }
 }
