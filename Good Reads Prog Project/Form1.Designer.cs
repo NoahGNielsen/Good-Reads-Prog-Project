@@ -32,6 +32,12 @@
             minSideToolStripMenuItem = new ToolStripMenuItem();
             anbefalingerToolStripMenuItem = new ToolStripMenuItem();
             plusToolStripMenuItem = new ToolStripMenuItem();
+            listBox_In_Progress = new ListBox();
+            label_In_Progress = new Label();
+            label_TBR = new Label();
+            listBox_TBR = new ListBox();
+            label_Read = new Label();
+            listBox_Read = new ListBox();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -50,24 +56,90 @@
             minSideToolStripMenuItem.Name = "minSideToolStripMenuItem";
             minSideToolStripMenuItem.Size = new Size(79, 24);
             minSideToolStripMenuItem.Text = "Min side";
+            minSideToolStripMenuItem.Click += minSideToolStripMenuItem_Click;
             // 
             // anbefalingerToolStripMenuItem
             // 
             anbefalingerToolStripMenuItem.Name = "anbefalingerToolStripMenuItem";
             anbefalingerToolStripMenuItem.Size = new Size(109, 24);
             anbefalingerToolStripMenuItem.Text = "Anbefalinger";
+            anbefalingerToolStripMenuItem.Click += anbefalingerToolStripMenuItem_Click;
             // 
             // plusToolStripMenuItem
             // 
             plusToolStripMenuItem.Name = "plusToolStripMenuItem";
             plusToolStripMenuItem.Size = new Size(53, 24);
             plusToolStripMenuItem.Text = "Plus ";
+            plusToolStripMenuItem.Click += plusToolStripMenuItem_Click;
+            // 
+            // listBox_In_Progress
+            // 
+            listBox_In_Progress.FormattingEnabled = true;
+            listBox_In_Progress.Location = new Point(12, 68);
+            listBox_In_Progress.Name = "listBox_In_Progress";
+            listBox_In_Progress.Size = new Size(768, 104);
+            listBox_In_Progress.TabIndex = 1;
+            listBox_In_Progress.SelectedIndexChanged += listBox_In_Progress_SelectedIndexChanged;
+            // 
+            // label_In_Progress
+            // 
+            label_In_Progress.AutoSize = true;
+            label_In_Progress.Location = new Point(12, 45);
+            label_In_Progress.Name = "label_In_Progress";
+            label_In_Progress.Size = new Size(86, 20);
+            label_In_Progress.TabIndex = 2;
+            label_In_Progress.Text = "In progress ";
+            label_In_Progress.Click += label_In_Progress_Click;
+            // 
+            // label_TBR
+            // 
+            label_TBR.AutoSize = true;
+            label_TBR.Location = new Point(12, 175);
+            label_TBR.Name = "label_TBR";
+            label_TBR.Size = new Size(35, 20);
+            label_TBR.TabIndex = 3;
+            label_TBR.Text = "TBR";
+            label_TBR.Click += label_TBR_Click;
+            // 
+            // listBox_TBR
+            // 
+            listBox_TBR.FormattingEnabled = true;
+            listBox_TBR.Location = new Point(12, 198);
+            listBox_TBR.Name = "listBox_TBR";
+            listBox_TBR.Size = new Size(768, 104);
+            listBox_TBR.TabIndex = 4;
+            listBox_TBR.SelectedIndexChanged += listBox_TBR_SelectedIndexChanged;
+            // 
+            // label_Read
+            // 
+            label_Read.AutoSize = true;
+            label_Read.Location = new Point(12, 305);
+            label_Read.Name = "label_Read";
+            label_Read.Size = new Size(43, 20);
+            label_Read.TabIndex = 5;
+            label_Read.Text = "Read";
+            label_Read.Click += label_Read_Click;
+            // 
+            // listBox_Read
+            // 
+            listBox_Read.FormattingEnabled = true;
+            listBox_Read.Location = new Point(12, 328);
+            listBox_Read.Name = "listBox_Read";
+            listBox_Read.Size = new Size(768, 104);
+            listBox_Read.TabIndex = 6;
+            listBox_Read.SelectedIndexChanged += listBox_Read_SelectedIndexChanged;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(listBox_Read);
+            Controls.Add(label_Read);
+            Controls.Add(listBox_TBR);
+            Controls.Add(label_TBR);
+            Controls.Add(label_In_Progress);
+            Controls.Add(listBox_In_Progress);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             Name = "Form1";
@@ -84,5 +156,11 @@
         private ToolStripMenuItem minSideToolStripMenuItem;
         private ToolStripMenuItem anbefalingerToolStripMenuItem;
         private ToolStripMenuItem plusToolStripMenuItem;
+        private ListBox listBox_In_Progress;
+        private Label label_In_Progress;
+        private Label label_TBR;
+        private ListBox listBox_TBR;
+        private Label label_Read;
+        private ListBox listBox_Read;
     }
 }
