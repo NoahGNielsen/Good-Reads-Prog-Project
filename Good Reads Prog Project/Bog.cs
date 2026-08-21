@@ -14,5 +14,9 @@ namespace Good_Reads_Prog_Project
         {
             InitializeComponent();
         }
+        private void btn_addToMyPage_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
