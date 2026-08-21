@@ -9,7 +9,7 @@ namespace Good_Reads_Prog_Project
 
         private void minSideToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void anbefalingerToolStripMenuItem_Click(object sender, EventArgs e)
