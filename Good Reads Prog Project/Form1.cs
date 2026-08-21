@@ -9,12 +9,16 @@ namespace Good_Reads_Prog_Project
 
         private void minSideToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            /*Form1 nyForm = new Form1();
+            nyForm.Show();
+            this.Hide();*/
         }
 
         private void anbefalingerToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Anbefalinger nyForm = new Anbefalinger();
+            nyForm.Show();
+            this.Hide();
         }
 
         private void plusToolStripMenuItem_Click(object sender, EventArgs e)
