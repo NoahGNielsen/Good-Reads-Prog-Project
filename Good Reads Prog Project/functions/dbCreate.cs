@@ -7,7 +7,7 @@ namespace Good_Reads_Prog_Project.functions
 {
     internal class dbCreate
     {
-        public static void InitializeDatabase()
+        public static bool InitializeDatabase()
         {
             Config config = new Config();
             string connectionString = config.DBAccessString;
@@ -63,6 +63,7 @@ namespace Good_Reads_Prog_Project.functions
                     command.ExecuteNonQuery();
                 }
             }
+            return true;
         }
     }
 }
