@@ -61,58 +61,58 @@
             DLA_IP_9 = new Label();
             ULA_IP_9 = new Label();
             PB_IP_9 = new PictureBox();
-            label19 = new Label();
-            label20 = new Label();
-            pictureBox10 = new PictureBox();
-            label21 = new Label();
-            label22 = new Label();
-            pictureBox11 = new PictureBox();
-            label23 = new Label();
-            label24 = new Label();
-            pictureBox12 = new PictureBox();
-            label25 = new Label();
-            label26 = new Label();
-            pictureBox13 = new PictureBox();
-            label27 = new Label();
-            label28 = new Label();
-            pictureBox14 = new PictureBox();
-            label29 = new Label();
-            label30 = new Label();
-            pictureBox15 = new PictureBox();
-            label31 = new Label();
-            label32 = new Label();
-            pictureBox16 = new PictureBox();
-            label33 = new Label();
-            label34 = new Label();
-            pictureBox17 = new PictureBox();
-            label35 = new Label();
-            label36 = new Label();
-            pictureBox18 = new PictureBox();
-            label37 = new Label();
+            DLA_TBR_9 = new Label();
+            ULA_TBR_9 = new Label();
+            PB_TBR_9 = new PictureBox();
+            DLA_TBR_8 = new Label();
+            ULA_TBR_8 = new Label();
+            PB_TBR_8 = new PictureBox();
+            lDLA_TBR_7 = new Label();
+            ULA_TBR_7 = new Label();
+            PB_TBR_7 = new PictureBox();
+            DLA_TBR_6 = new Label();
+            ULA_TBR_6 = new Label();
+            PB_TBR_6 = new PictureBox();
+            DLA_TBR_5 = new Label();
+            ULA_TBR_5 = new Label();
+            PB_TBR_5 = new PictureBox();
+            DLA_TBR_4 = new Label();
+            ULA_TBR_4 = new Label();
+            PB_TBR_4 = new PictureBox();
+            DLA_TBR_3 = new Label();
+            ULA_TBR_3 = new Label();
+            PB_TBR_3 = new PictureBox();
+            DLA_TBR_2 = new Label();
+            ULA_TBR_2 = new Label();
+            PB_TBR_2 = new PictureBox();
+            DLA_TBR_1 = new Label();
+            ULA_TBR_1 = new Label();
+            PB_TBR_1 = new PictureBox();
+            DLA_R_9 = new Label();
             ULA_R_9 = new Label();
             PB_R_9 = new PictureBox();
-            label39 = new Label();
+            DLA_R_8 = new Label();
             ULA_R_8 = new Label();
             PB_R_8 = new PictureBox();
-            label41 = new Label();
+            DLA_R_7 = new Label();
             ULA_R_7 = new Label();
             PB_R_7 = new PictureBox();
-            label43 = new Label();
+            DLA_R_6 = new Label();
             ULA_R_6 = new Label();
             PB_R_6 = new PictureBox();
-            label45 = new Label();
+            DLA_R_5 = new Label();
             ULA_R_5 = new Label();
             PB_R_5 = new PictureBox();
-            label47 = new Label();
+            DLA_R_4 = new Label();
             ULA_R_4 = new Label();
             PB_R_4 = new PictureBox();
-            label49 = new Label();
+            DLA_R_3 = new Label();
             ULA_R_3 = new Label();
             PB_R_3 = new PictureBox();
-            label51 = new Label();
+            DLA_R_2 = new Label();
             ULA_R_2 = new Label();
             PB_R_2 = new PictureBox();
-            label53 = new Label();
+            DLA_R_1 = new Label();
             ULA_R_1 = new Label();
             PB_R_1 = new PictureBox();
             label55 = new Label();
@@ -126,15 +126,15 @@
             ((System.ComponentModel.ISupportInitialize)PB_IP_8).BeginInit();
             ((System.ComponentModel.ISupportInitialize)PB_IP_7).BeginInit();
             ((System.ComponentModel.ISupportInitialize)PB_IP_9).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox14).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox16).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox17).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox18).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PB_TBR_9).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PB_TBR_8).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PB_TBR_7).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PB_TBR_6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PB_TBR_5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PB_TBR_4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PB_TBR_3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PB_TBR_2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PB_TBR_1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)PB_R_9).BeginInit();
             ((System.ComponentModel.ISupportInitialize)PB_R_8).BeginInit();
             ((System.ComponentModel.ISupportInitialize)PB_R_7).BeginInit();
@@ -434,248 +434,248 @@
             PB_IP_9.TabIndex = 30;
             PB_IP_9.TabStop = false;
             // 
-            // label19
+            // DLA_TBR_9
             // 
-            label19.AutoSize = true;
-            label19.Location = new Point(1051, 725);
-            label19.Name = "label19";
-            label19.Size = new Size(91, 32);
-            label19.TabIndex = 60;
-            label19.Text = "label19";
+            DLA_TBR_9.AutoSize = true;
+            DLA_TBR_9.Location = new Point(1051, 725);
+            DLA_TBR_9.Name = "DLA_TBR_9";
+            DLA_TBR_9.Size = new Size(91, 32);
+            DLA_TBR_9.TabIndex = 60;
+            DLA_TBR_9.Text = "label19";
             // 
-            // label20
+            // ULA_TBR_9
             // 
-            label20.AutoSize = true;
-            label20.Location = new Point(1051, 693);
-            label20.Name = "label20";
-            label20.Size = new Size(91, 32);
-            label20.TabIndex = 59;
-            label20.Text = "label20";
+            ULA_TBR_9.AutoSize = true;
+            ULA_TBR_9.Location = new Point(1051, 693);
+            ULA_TBR_9.Name = "ULA_TBR_9";
+            ULA_TBR_9.Size = new Size(91, 32);
+            ULA_TBR_9.TabIndex = 59;
+            ULA_TBR_9.Text = "label20";
             // 
-            // pictureBox10
+            // PB_TBR_9
             // 
-            pictureBox10.Location = new Point(1051, 477);
-            pictureBox10.Name = "pictureBox10";
-            pictureBox10.Size = new Size(122, 213);
-            pictureBox10.TabIndex = 58;
-            pictureBox10.TabStop = false;
+            PB_TBR_9.Location = new Point(1051, 477);
+            PB_TBR_9.Name = "PB_TBR_9";
+            PB_TBR_9.Size = new Size(122, 213);
+            PB_TBR_9.TabIndex = 58;
+            PB_TBR_9.TabStop = false;
             // 
-            // label21
+            // DLA_TBR_8
             // 
-            label21.AutoSize = true;
-            label21.Location = new Point(922, 725);
-            label21.Name = "label21";
-            label21.Size = new Size(91, 32);
-            label21.TabIndex = 57;
-            label21.Text = "label21";
+            DLA_TBR_8.AutoSize = true;
+            DLA_TBR_8.Location = new Point(922, 725);
+            DLA_TBR_8.Name = "DLA_TBR_8";
+            DLA_TBR_8.Size = new Size(91, 32);
+            DLA_TBR_8.TabIndex = 57;
+            DLA_TBR_8.Text = "label21";
             // 
-            // label22
+            // ULA_TBR_8
             // 
-            label22.AutoSize = true;
-            label22.Location = new Point(922, 693);
-            label22.Name = "label22";
-            label22.Size = new Size(91, 32);
-            label22.TabIndex = 56;
-            label22.Text = "label22";
+            ULA_TBR_8.AutoSize = true;
+            ULA_TBR_8.Location = new Point(922, 693);
+            ULA_TBR_8.Name = "ULA_TBR_8";
+            ULA_TBR_8.Size = new Size(91, 32);
+            ULA_TBR_8.TabIndex = 56;
+            ULA_TBR_8.Text = "label22";
             // 
-            // pictureBox11
+            // PB_TBR_8
             // 
-            pictureBox11.Location = new Point(922, 477);
-            pictureBox11.Name = "pictureBox11";
-            pictureBox11.Size = new Size(122, 213);
-            pictureBox11.TabIndex = 55;
-            pictureBox11.TabStop = false;
+            PB_TBR_8.Location = new Point(922, 477);
+            PB_TBR_8.Name = "PB_TBR_8";
+            PB_TBR_8.Size = new Size(122, 213);
+            PB_TBR_8.TabIndex = 55;
+            PB_TBR_8.TabStop = false;
             // 
-            // label23
+            // lDLA_TBR_7
             // 
-            label23.AutoSize = true;
-            label23.Location = new Point(793, 725);
-            label23.Name = "label23";
-            label23.Size = new Size(91, 32);
-            label23.TabIndex = 54;
-            label23.Text = "label23";
+            lDLA_TBR_7.AutoSize = true;
+            lDLA_TBR_7.Location = new Point(793, 725);
+            lDLA_TBR_7.Name = "lDLA_TBR_7";
+            lDLA_TBR_7.Size = new Size(91, 32);
+            lDLA_TBR_7.TabIndex = 54;
+            lDLA_TBR_7.Text = "label23";
             // 
-            // label24
+            // ULA_TBR_7
             // 
-            label24.AutoSize = true;
-            label24.Location = new Point(793, 693);
-            label24.Name = "label24";
-            label24.Size = new Size(91, 32);
-            label24.TabIndex = 53;
-            label24.Text = "label24";
+            ULA_TBR_7.AutoSize = true;
+            ULA_TBR_7.Location = new Point(793, 693);
+            ULA_TBR_7.Name = "ULA_TBR_7";
+            ULA_TBR_7.Size = new Size(91, 32);
+            ULA_TBR_7.TabIndex = 53;
+            ULA_TBR_7.Text = "label24";
             // 
-            // pictureBox12
+            // PB_TBR_7
             // 
-            pictureBox12.Location = new Point(793, 477);
-            pictureBox12.Name = "pictureBox12";
-            pictureBox12.Size = new Size(122, 213);
-            pictureBox12.TabIndex = 52;
-            pictureBox12.TabStop = false;
+            PB_TBR_7.Location = new Point(793, 477);
+            PB_TBR_7.Name = "PB_TBR_7";
+            PB_TBR_7.Size = new Size(122, 213);
+            PB_TBR_7.TabIndex = 52;
+            PB_TBR_7.TabStop = false;
             // 
-            // label25
+            // DLA_TBR_6
             // 
-            label25.AutoSize = true;
-            label25.Location = new Point(664, 725);
-            label25.Name = "label25";
-            label25.Size = new Size(91, 32);
-            label25.TabIndex = 51;
-            label25.Text = "label25";
+            DLA_TBR_6.AutoSize = true;
+            DLA_TBR_6.Location = new Point(664, 725);
+            DLA_TBR_6.Name = "DLA_TBR_6";
+            DLA_TBR_6.Size = new Size(91, 32);
+            DLA_TBR_6.TabIndex = 51;
+            DLA_TBR_6.Text = "label25";
             // 
-            // label26
+            // ULA_TBR_6
             // 
-            label26.AutoSize = true;
-            label26.Location = new Point(664, 693);
-            label26.Name = "label26";
-            label26.Size = new Size(91, 32);
-            label26.TabIndex = 50;
-            label26.Text = "label26";
+            ULA_TBR_6.AutoSize = true;
+            ULA_TBR_6.Location = new Point(664, 693);
+            ULA_TBR_6.Name = "ULA_TBR_6";
+            ULA_TBR_6.Size = new Size(91, 32);
+            ULA_TBR_6.TabIndex = 50;
+            ULA_TBR_6.Text = "label26";
             // 
-            // pictureBox13
+            // PB_TBR_6
             // 
-            pictureBox13.Location = new Point(664, 477);
-            pictureBox13.Name = "pictureBox13";
-            pictureBox13.Size = new Size(122, 213);
-            pictureBox13.TabIndex = 49;
-            pictureBox13.TabStop = false;
+            PB_TBR_6.Location = new Point(664, 477);
+            PB_TBR_6.Name = "PB_TBR_6";
+            PB_TBR_6.Size = new Size(122, 213);
+            PB_TBR_6.TabIndex = 49;
+            PB_TBR_6.TabStop = false;
             // 
-            // label27
+            // DLA_TBR_5
             // 
-            label27.AutoSize = true;
-            label27.Location = new Point(535, 725);
-            label27.Name = "label27";
-            label27.Size = new Size(91, 32);
-            label27.TabIndex = 48;
-            label27.Text = "label27";
+            DLA_TBR_5.AutoSize = true;
+            DLA_TBR_5.Location = new Point(535, 725);
+            DLA_TBR_5.Name = "DLA_TBR_5";
+            DLA_TBR_5.Size = new Size(91, 32);
+            DLA_TBR_5.TabIndex = 48;
+            DLA_TBR_5.Text = "label27";
             // 
-            // label28
+            // ULA_TBR_5
             // 
-            label28.AutoSize = true;
-            label28.Location = new Point(535, 693);
-            label28.Name = "label28";
-            label28.Size = new Size(91, 32);
-            label28.TabIndex = 47;
-            label28.Text = "label28";
+            ULA_TBR_5.AutoSize = true;
+            ULA_TBR_5.Location = new Point(535, 693);
+            ULA_TBR_5.Name = "ULA_TBR_5";
+            ULA_TBR_5.Size = new Size(91, 32);
+            ULA_TBR_5.TabIndex = 47;
+            ULA_TBR_5.Text = "label28";
             // 
-            // pictureBox14
+            // PB_TBR_5
             // 
-            pictureBox14.Location = new Point(535, 477);
-            pictureBox14.Name = "pictureBox14";
-            pictureBox14.Size = new Size(122, 213);
-            pictureBox14.TabIndex = 46;
-            pictureBox14.TabStop = false;
+            PB_TBR_5.Location = new Point(535, 477);
+            PB_TBR_5.Name = "PB_TBR_5";
+            PB_TBR_5.Size = new Size(122, 213);
+            PB_TBR_5.TabIndex = 46;
+            PB_TBR_5.TabStop = false;
             // 
-            // label29
+            // DLA_TBR_4
             // 
-            label29.AutoSize = true;
-            label29.Location = new Point(406, 725);
-            label29.Name = "label29";
-            label29.Size = new Size(91, 32);
-            label29.TabIndex = 45;
-            label29.Text = "label29";
+            DLA_TBR_4.AutoSize = true;
+            DLA_TBR_4.Location = new Point(406, 725);
+            DLA_TBR_4.Name = "DLA_TBR_4";
+            DLA_TBR_4.Size = new Size(91, 32);
+            DLA_TBR_4.TabIndex = 45;
+            DLA_TBR_4.Text = "label29";
             // 
-            // label30
+            // ULA_TBR_4
             // 
-            label30.AutoSize = true;
-            label30.Location = new Point(406, 693);
-            label30.Name = "label30";
-            label30.Size = new Size(91, 32);
-            label30.TabIndex = 44;
-            label30.Text = "label30";
+            ULA_TBR_4.AutoSize = true;
+            ULA_TBR_4.Location = new Point(406, 693);
+            ULA_TBR_4.Name = "ULA_TBR_4";
+            ULA_TBR_4.Size = new Size(91, 32);
+            ULA_TBR_4.TabIndex = 44;
+            ULA_TBR_4.Text = "label30";
             // 
-            // pictureBox15
+            // PB_TBR_4
             // 
-            pictureBox15.Location = new Point(406, 477);
-            pictureBox15.Name = "pictureBox15";
-            pictureBox15.Size = new Size(122, 213);
-            pictureBox15.TabIndex = 43;
-            pictureBox15.TabStop = false;
+            PB_TBR_4.Location = new Point(406, 477);
+            PB_TBR_4.Name = "PB_TBR_4";
+            PB_TBR_4.Size = new Size(122, 213);
+            PB_TBR_4.TabIndex = 43;
+            PB_TBR_4.TabStop = false;
             // 
-            // label31
+            // DLA_TBR_3
             // 
-            label31.AutoSize = true;
-            label31.Location = new Point(277, 725);
-            label31.Name = "label31";
-            label31.Size = new Size(91, 32);
-            label31.TabIndex = 42;
-            label31.Text = "label31";
+            DLA_TBR_3.AutoSize = true;
+            DLA_TBR_3.Location = new Point(277, 725);
+            DLA_TBR_3.Name = "DLA_TBR_3";
+            DLA_TBR_3.Size = new Size(91, 32);
+            DLA_TBR_3.TabIndex = 42;
+            DLA_TBR_3.Text = "label31";
             // 
-            // label32
+            // ULA_TBR_3
             // 
-            label32.AutoSize = true;
-            label32.Location = new Point(277, 693);
-            label32.Name = "label32";
-            label32.Size = new Size(91, 32);
-            label32.TabIndex = 41;
-            label32.Text = "label32";
+            ULA_TBR_3.AutoSize = true;
+            ULA_TBR_3.Location = new Point(277, 693);
+            ULA_TBR_3.Name = "ULA_TBR_3";
+            ULA_TBR_3.Size = new Size(91, 32);
+            ULA_TBR_3.TabIndex = 41;
+            ULA_TBR_3.Text = "label32";
             // 
-            // pictureBox16
+            // PB_TBR_3
             // 
-            pictureBox16.Location = new Point(277, 477);
-            pictureBox16.Name = "pictureBox16";
-            pictureBox16.Size = new Size(122, 213);
-            pictureBox16.TabIndex = 40;
-            pictureBox16.TabStop = false;
+            PB_TBR_3.Location = new Point(277, 477);
+            PB_TBR_3.Name = "PB_TBR_3";
+            PB_TBR_3.Size = new Size(122, 213);
+            PB_TBR_3.TabIndex = 40;
+            PB_TBR_3.TabStop = false;
             // 
-            // label33
+            // DLA_TBR_2
             // 
-            label33.AutoSize = true;
-            label33.Location = new Point(148, 725);
-            label33.Name = "label33";
-            label33.Size = new Size(91, 32);
-            label33.TabIndex = 39;
-            label33.Text = "label33";
+            DLA_TBR_2.AutoSize = true;
+            DLA_TBR_2.Location = new Point(148, 725);
+            DLA_TBR_2.Name = "DLA_TBR_2";
+            DLA_TBR_2.Size = new Size(91, 32);
+            DLA_TBR_2.TabIndex = 39;
+            DLA_TBR_2.Text = "label33";
             // 
-            // label34
+            // ULA_TBR_2
             // 
-            label34.AutoSize = true;
-            label34.Location = new Point(148, 693);
-            label34.Name = "label34";
-            label34.Size = new Size(91, 32);
-            label34.TabIndex = 38;
-            label34.Text = "label34";
+            ULA_TBR_2.AutoSize = true;
+            ULA_TBR_2.Location = new Point(148, 693);
+            ULA_TBR_2.Name = "ULA_TBR_2";
+            ULA_TBR_2.Size = new Size(91, 32);
+            ULA_TBR_2.TabIndex = 38;
+            ULA_TBR_2.Text = "label34";
             // 
-            // pictureBox17
+            // PB_TBR_2
             // 
-            pictureBox17.Location = new Point(148, 477);
-            pictureBox17.Name = "pictureBox17";
-            pictureBox17.Size = new Size(122, 213);
-            pictureBox17.TabIndex = 37;
-            pictureBox17.TabStop = false;
+            PB_TBR_2.Location = new Point(148, 477);
+            PB_TBR_2.Name = "PB_TBR_2";
+            PB_TBR_2.Size = new Size(122, 213);
+            PB_TBR_2.TabIndex = 37;
+            PB_TBR_2.TabStop = false;
             // 
-            // label35
+            // DLA_TBR_1
             // 
-            label35.AutoSize = true;
-            label35.Location = new Point(20, 725);
-            label35.Name = "label35";
-            label35.Size = new Size(91, 32);
-            label35.TabIndex = 36;
-            label35.Text = "label35";
+            DLA_TBR_1.AutoSize = true;
+            DLA_TBR_1.Location = new Point(20, 725);
+            DLA_TBR_1.Name = "DLA_TBR_1";
+            DLA_TBR_1.Size = new Size(91, 32);
+            DLA_TBR_1.TabIndex = 36;
+            DLA_TBR_1.Text = "label35";
             // 
-            // label36
+            // ULA_TBR_1
             // 
-            label36.AutoSize = true;
-            label36.Location = new Point(20, 693);
-            label36.Name = "label36";
-            label36.Size = new Size(91, 32);
-            label36.TabIndex = 35;
-            label36.Text = "label36";
+            ULA_TBR_1.AutoSize = true;
+            ULA_TBR_1.Location = new Point(20, 693);
+            ULA_TBR_1.Name = "ULA_TBR_1";
+            ULA_TBR_1.Size = new Size(91, 32);
+            ULA_TBR_1.TabIndex = 35;
+            ULA_TBR_1.Text = "label36";
             // 
-            // pictureBox18
+            // PB_TBR_1
             // 
-            pictureBox18.Location = new Point(20, 477);
-            pictureBox18.Name = "pictureBox18";
-            pictureBox18.Size = new Size(122, 213);
-            pictureBox18.TabIndex = 34;
-            pictureBox18.TabStop = false;
+            PB_TBR_1.Location = new Point(20, 477);
+            PB_TBR_1.Name = "PB_TBR_1";
+            PB_TBR_1.Size = new Size(122, 213);
+            PB_TBR_1.TabIndex = 34;
+            PB_TBR_1.TabStop = false;
             // 
-            // label37
+            // DLA_R_9
             // 
-            label37.AutoSize = true;
-            label37.Location = new Point(1051, 1049);
-            label37.Name = "label37";
-            label37.Size = new Size(91, 32);
-            label37.TabIndex = 88;
-            label37.Text = "label37";
+            DLA_R_9.AutoSize = true;
+            DLA_R_9.Location = new Point(1051, 1049);
+            DLA_R_9.Name = "DLA_R_9";
+            DLA_R_9.Size = new Size(91, 32);
+            DLA_R_9.TabIndex = 88;
+            DLA_R_9.Text = "label37";
             // 
             // ULA_R_9
             // 
@@ -694,14 +694,14 @@
             PB_R_9.TabIndex = 86;
             PB_R_9.TabStop = false;
             // 
-            // label39
+            // DLA_R_8
             // 
-            label39.AutoSize = true;
-            label39.Location = new Point(922, 1049);
-            label39.Name = "label39";
-            label39.Size = new Size(91, 32);
-            label39.TabIndex = 85;
-            label39.Text = "label39";
+            DLA_R_8.AutoSize = true;
+            DLA_R_8.Location = new Point(922, 1049);
+            DLA_R_8.Name = "DLA_R_8";
+            DLA_R_8.Size = new Size(91, 32);
+            DLA_R_8.TabIndex = 85;
+            DLA_R_8.Text = "label39";
             // 
             // ULA_R_8
             // 
@@ -720,14 +720,14 @@
             PB_R_8.TabIndex = 83;
             PB_R_8.TabStop = false;
             // 
-            // label41
+            // DLA_R_7
             // 
-            label41.AutoSize = true;
-            label41.Location = new Point(793, 1049);
-            label41.Name = "label41";
-            label41.Size = new Size(91, 32);
-            label41.TabIndex = 82;
-            label41.Text = "label41";
+            DLA_R_7.AutoSize = true;
+            DLA_R_7.Location = new Point(793, 1049);
+            DLA_R_7.Name = "DLA_R_7";
+            DLA_R_7.Size = new Size(91, 32);
+            DLA_R_7.TabIndex = 82;
+            DLA_R_7.Text = "label41";
             // 
             // ULA_R_7
             // 
@@ -746,14 +746,14 @@
             PB_R_7.TabIndex = 80;
             PB_R_7.TabStop = false;
             // 
-            // label43
+            // DLA_R_6
             // 
-            label43.AutoSize = true;
-            label43.Location = new Point(664, 1049);
-            label43.Name = "label43";
-            label43.Size = new Size(91, 32);
-            label43.TabIndex = 79;
-            label43.Text = "label43";
+            DLA_R_6.AutoSize = true;
+            DLA_R_6.Location = new Point(664, 1049);
+            DLA_R_6.Name = "DLA_R_6";
+            DLA_R_6.Size = new Size(91, 32);
+            DLA_R_6.TabIndex = 79;
+            DLA_R_6.Text = "label43";
             // 
             // ULA_R_6
             // 
@@ -772,14 +772,14 @@
             PB_R_6.TabIndex = 77;
             PB_R_6.TabStop = false;
             // 
-            // label45
+            // DLA_R_5
             // 
-            label45.AutoSize = true;
-            label45.Location = new Point(535, 1049);
-            label45.Name = "label45";
-            label45.Size = new Size(91, 32);
-            label45.TabIndex = 76;
-            label45.Text = "label45";
+            DLA_R_5.AutoSize = true;
+            DLA_R_5.Location = new Point(535, 1049);
+            DLA_R_5.Name = "DLA_R_5";
+            DLA_R_5.Size = new Size(91, 32);
+            DLA_R_5.TabIndex = 76;
+            DLA_R_5.Text = "label45";
             // 
             // ULA_R_5
             // 
@@ -798,14 +798,14 @@
             PB_R_5.TabIndex = 74;
             PB_R_5.TabStop = false;
             // 
-            // label47
+            // DLA_R_4
             // 
-            label47.AutoSize = true;
-            label47.Location = new Point(406, 1049);
-            label47.Name = "label47";
-            label47.Size = new Size(91, 32);
-            label47.TabIndex = 73;
-            label47.Text = "label47";
+            DLA_R_4.AutoSize = true;
+            DLA_R_4.Location = new Point(406, 1049);
+            DLA_R_4.Name = "DLA_R_4";
+            DLA_R_4.Size = new Size(91, 32);
+            DLA_R_4.TabIndex = 73;
+            DLA_R_4.Text = "label47";
             // 
             // ULA_R_4
             // 
@@ -824,14 +824,14 @@
             PB_R_4.TabIndex = 71;
             PB_R_4.TabStop = false;
             // 
-            // label49
+            // DLA_R_3
             // 
-            label49.AutoSize = true;
-            label49.Location = new Point(277, 1049);
-            label49.Name = "label49";
-            label49.Size = new Size(91, 32);
-            label49.TabIndex = 70;
-            label49.Text = "label49";
+            DLA_R_3.AutoSize = true;
+            DLA_R_3.Location = new Point(277, 1049);
+            DLA_R_3.Name = "DLA_R_3";
+            DLA_R_3.Size = new Size(91, 32);
+            DLA_R_3.TabIndex = 70;
+            DLA_R_3.Text = "label49";
             // 
             // ULA_R_3
             // 
@@ -850,14 +850,14 @@
             PB_R_3.TabIndex = 68;
             PB_R_3.TabStop = false;
             // 
-            // label51
+            // DLA_R_2
             // 
-            label51.AutoSize = true;
-            label51.Location = new Point(148, 1049);
-            label51.Name = "label51";
-            label51.Size = new Size(91, 32);
-            label51.TabIndex = 67;
-            label51.Text = "label51";
+            DLA_R_2.AutoSize = true;
+            DLA_R_2.Location = new Point(148, 1049);
+            DLA_R_2.Name = "DLA_R_2";
+            DLA_R_2.Size = new Size(91, 32);
+            DLA_R_2.TabIndex = 67;
+            DLA_R_2.Text = "label51";
             // 
             // ULA_R_2
             // 
@@ -876,14 +876,14 @@
             PB_R_2.TabIndex = 65;
             PB_R_2.TabStop = false;
             // 
-            // label53
+            // DLA_R_1
             // 
-            label53.AutoSize = true;
-            label53.Location = new Point(20, 1049);
-            label53.Name = "label53";
-            label53.Size = new Size(91, 32);
-            label53.TabIndex = 64;
-            label53.Text = "label53";
+            DLA_R_1.AutoSize = true;
+            DLA_R_1.Location = new Point(20, 1049);
+            DLA_R_1.Name = "DLA_R_1";
+            DLA_R_1.Size = new Size(91, 32);
+            DLA_R_1.TabIndex = 64;
+            DLA_R_1.Text = "label53";
             // 
             // ULA_R_1
             // 
@@ -917,61 +917,61 @@
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1206, 1206);
-            Controls.Add(label37);
+            Controls.Add(DLA_R_9);
             Controls.Add(ULA_R_9);
             Controls.Add(PB_R_9);
-            Controls.Add(label39);
+            Controls.Add(DLA_R_8);
             Controls.Add(ULA_R_8);
             Controls.Add(PB_R_8);
-            Controls.Add(label41);
+            Controls.Add(DLA_R_7);
             Controls.Add(ULA_R_7);
             Controls.Add(PB_R_7);
-            Controls.Add(label43);
+            Controls.Add(DLA_R_6);
             Controls.Add(ULA_R_6);
             Controls.Add(PB_R_6);
-            Controls.Add(label45);
+            Controls.Add(DLA_R_5);
             Controls.Add(ULA_R_5);
             Controls.Add(PB_R_5);
-            Controls.Add(label47);
+            Controls.Add(DLA_R_4);
             Controls.Add(ULA_R_4);
             Controls.Add(PB_R_4);
-            Controls.Add(label49);
+            Controls.Add(DLA_R_3);
             Controls.Add(ULA_R_3);
             Controls.Add(PB_R_3);
-            Controls.Add(label51);
+            Controls.Add(DLA_R_2);
             Controls.Add(ULA_R_2);
             Controls.Add(PB_R_2);
-            Controls.Add(label53);
+            Controls.Add(DLA_R_1);
             Controls.Add(ULA_R_1);
             Controls.Add(PB_R_1);
             Controls.Add(label55);
-            Controls.Add(label19);
-            Controls.Add(label20);
-            Controls.Add(pictureBox10);
-            Controls.Add(label21);
-            Controls.Add(label22);
-            Controls.Add(pictureBox11);
-            Controls.Add(label23);
-            Controls.Add(label24);
-            Controls.Add(pictureBox12);
-            Controls.Add(label25);
-            Controls.Add(label26);
-            Controls.Add(pictureBox13);
-            Controls.Add(label27);
-            Controls.Add(label28);
-            Controls.Add(pictureBox14);
-            Controls.Add(label29);
-            Controls.Add(label30);
-            Controls.Add(pictureBox15);
-            Controls.Add(label31);
-            Controls.Add(label32);
-            Controls.Add(pictureBox16);
-            Controls.Add(label33);
-            Controls.Add(label34);
-            Controls.Add(pictureBox17);
-            Controls.Add(label35);
-            Controls.Add(label36);
-            Controls.Add(pictureBox18);
+            Controls.Add(DLA_TBR_9);
+            Controls.Add(ULA_TBR_9);
+            Controls.Add(PB_TBR_9);
+            Controls.Add(DLA_TBR_8);
+            Controls.Add(ULA_TBR_8);
+            Controls.Add(PB_TBR_8);
+            Controls.Add(lDLA_TBR_7);
+            Controls.Add(ULA_TBR_7);
+            Controls.Add(PB_TBR_7);
+            Controls.Add(DLA_TBR_6);
+            Controls.Add(ULA_TBR_6);
+            Controls.Add(PB_TBR_6);
+            Controls.Add(DLA_TBR_5);
+            Controls.Add(ULA_TBR_5);
+            Controls.Add(PB_TBR_5);
+            Controls.Add(DLA_TBR_4);
+            Controls.Add(ULA_TBR_4);
+            Controls.Add(PB_TBR_4);
+            Controls.Add(DLA_TBR_3);
+            Controls.Add(ULA_TBR_3);
+            Controls.Add(PB_TBR_3);
+            Controls.Add(DLA_TBR_2);
+            Controls.Add(ULA_TBR_2);
+            Controls.Add(PB_TBR_2);
+            Controls.Add(DLA_TBR_1);
+            Controls.Add(ULA_TBR_1);
+            Controls.Add(PB_TBR_1);
             Controls.Add(DLA_IP_9);
             Controls.Add(ULA_IP_9);
             Controls.Add(PB_IP_9);
@@ -1017,15 +1017,15 @@
             ((System.ComponentModel.ISupportInitialize)PB_IP_8).EndInit();
             ((System.ComponentModel.ISupportInitialize)PB_IP_7).EndInit();
             ((System.ComponentModel.ISupportInitialize)PB_IP_9).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox14).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox16).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox17).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox18).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PB_TBR_9).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PB_TBR_8).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PB_TBR_7).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PB_TBR_6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PB_TBR_5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PB_TBR_4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PB_TBR_3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PB_TBR_2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PB_TBR_1).EndInit();
             ((System.ComponentModel.ISupportInitialize)PB_R_9).EndInit();
             ((System.ComponentModel.ISupportInitialize)PB_R_8).EndInit();
             ((System.ComponentModel.ISupportInitialize)PB_R_7).EndInit();
@@ -1074,58 +1074,58 @@
         private Label DLA_IP_9;
         private Label ULA_IP_9;
         private PictureBox PB_IP_9;
-        private Label label19;
-        private Label label20;
-        private PictureBox pictureBox10;
-        private Label label21;
-        private Label label22;
-        private PictureBox pictureBox11;
-        private Label label23;
-        private Label label24;
-        private PictureBox pictureBox12;
-        private Label label25;
-        private Label label26;
-        private PictureBox pictureBox13;
-        private Label label27;
-        private Label label28;
-        private PictureBox pictureBox14;
-        private Label label29;
-        private Label label30;
-        private PictureBox pictureBox15;
-        private Label label31;
-        private Label label32;
-        private PictureBox pictureBox16;
-        private Label label33;
-        private Label label34;
-        private PictureBox pictureBox17;
-        private Label label35;
-        private Label label36;
-        private PictureBox pictureBox18;
-        private Label label37;
+        private Label DLA_TBR_9;
+        private Label ULA_TBR_9;
+        private PictureBox PB_TBR_9;
+        private Label DLA_TBR_8;
+        private Label ULA_TBR_8;
+        private PictureBox PB_TBR_8;
+        private Label lDLA_TBR_7;
+        private Label ULA_TBR_7;
+        private PictureBox PB_TBR_7;
+        private Label DLA_TBR_6;
+        private Label ULA_TBR_6;
+        private PictureBox PB_TBR_6;
+        private Label DLA_TBR_5;
+        private Label ULA_TBR_5;
+        private PictureBox PB_TBR_5;
+        private Label DLA_TBR_4;
+        private Label ULA_TBR_4;
+        private PictureBox PB_TBR_4;
+        private Label DLA_TBR_3;
+        private Label ULA_TBR_3;
+        private PictureBox PB_TBR_3;
+        private Label DLA_TBR_2;
+        private Label ULA_TBR_2;
+        private PictureBox PB_TBR_2;
+        private Label DLA_TBR_1;
+        private Label ULA_TBR_1;
+        private PictureBox PB_TBR_1;
+        private Label DLA_R_9;
         private Label ULA_R_9;
         private PictureBox PB_R_9;
-        private Label label39;
+        private Label DLA_R_8;
         private Label ULA_R_8;
         private PictureBox PB_R_8;
-        private Label label41;
+        private Label DLA_R_7;
         private Label ULA_R_7;
         private PictureBox PB_R_7;
-        private Label label43;
+        private Label DLA_R_6;
         private Label ULA_R_6;
         private PictureBox PB_R_6;
-        private Label label45;
+        private Label DLA_R_5;
         private Label ULA_R_5;
         private PictureBox PB_R_5;
-        private Label label47;
+        private Label DLA_R_4;
         private Label ULA_R_4;
         private PictureBox PB_R_4;
-        private Label label49;
+        private Label DLA_R_3;
         private Label ULA_R_3;
         private PictureBox PB_R_3;
-        private Label label51;
+        private Label DLA_R_2;
         private Label ULA_R_2;
         private PictureBox PB_R_2;
-        private Label label53;
+        private Label DLA_R_1;
         private Label ULA_R_1;
         private PictureBox PB_R_1;
         private Label label55;

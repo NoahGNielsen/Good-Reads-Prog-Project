@@ -13,6 +13,6 @@ namespace Good_Reads_Prog_Project
 
 /*
  * Noah: @"Data Source=LAPTOP-M65QG9A2\SQLEXPRESS01;Initial Catalog=goodBooksDB;Integrated Security=True;TrustServerCertificate=True";
- * Emilia:
+ * Emilia: @"Data SourceData Source=localhost\sqlexpress;Initial Catalog=GoodBooks;Integrated Security=True;TrustServerCertificate=True";
  * Elias:
  */
