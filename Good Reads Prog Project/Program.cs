@@ -28,6 +28,7 @@ namespace Good_Reads_Prog_Project
             catch (Exception ex) 
             { 
                 MessageBox.Show("Error initializing database: " + ex.Message, "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
