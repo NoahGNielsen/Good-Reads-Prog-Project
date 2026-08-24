@@ -34,10 +34,9 @@
             plusToolStripMenuItem = new ToolStripMenuItem();
             label_In_Progress = new Label();
             label_TBR = new Label();
-            label_Read = new Label();
-            pictureBox1 = new PictureBox();
-            label1 = new Label();
-            label2 = new Label();
+            PB_IP_1 = new PictureBox();
+            ULA_IP_1 = new Label();
+            DLA_IP_1 = new Label();
             label3 = new Label();
             label4 = new Label();
             pictureBox2 = new PictureBox();
@@ -118,7 +117,7 @@
             pictureBox27 = new PictureBox();
             label55 = new Label();
             menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PB_IP_1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
@@ -154,7 +153,7 @@
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Padding = new Padding(9, 3, 0, 3);
-            menuStrip1.Size = new Size(1182, 40);
+            menuStrip1.Size = new Size(1113, 40);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -201,42 +200,31 @@
             label_TBR.Text = "TBR";
             label_TBR.Click += label_TBR_Click;
             // 
-            // label_Read
+            // PB_IP_1
             // 
-            label_Read.AutoSize = true;
-            label_Read.Location = new Point(696, 30);
-            label_Read.Margin = new Padding(4, 0, 4, 0);
-            label_Read.Name = "label_Read";
-            label_Read.Size = new Size(59, 30);
-            label_Read.TabIndex = 5;
-            label_Read.Text = "Read";
-            label_Read.Click += label_Read_Click;
+            PB_IP_1.Location = new Point(27, 111);
+            PB_IP_1.Name = "PB_IP_1";
+            PB_IP_1.Size = new Size(113, 200);
+            PB_IP_1.TabIndex = 6;
+            PB_IP_1.TabStop = false;
             // 
-            // pictureBox1
+            // ULA_IP_1
             // 
-            pictureBox1.Location = new Point(27, 111);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(113, 200);
-            pictureBox1.TabIndex = 6;
-            pictureBox1.TabStop = false;
+            ULA_IP_1.AutoSize = true;
+            ULA_IP_1.Location = new Point(27, 314);
+            ULA_IP_1.Name = "ULA_IP_1";
+            ULA_IP_1.Size = new Size(68, 30);
+            ULA_IP_1.TabIndex = 7;
+            ULA_IP_1.Text = "label1";
             // 
-            // label1
+            // DLA_IP_1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(27, 314);
-            label1.Name = "label1";
-            label1.Size = new Size(68, 30);
-            label1.TabIndex = 7;
-            label1.Text = "label1";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(27, 344);
-            label2.Name = "label2";
-            label2.Size = new Size(68, 30);
-            label2.TabIndex = 8;
-            label2.Text = "label2";
+            DLA_IP_1.AutoSize = true;
+            DLA_IP_1.Location = new Point(27, 344);
+            DLA_IP_1.Name = "DLA_IP_1";
+            DLA_IP_1.Size = new Size(68, 30);
+            DLA_IP_1.TabIndex = 8;
+            DLA_IP_1.Text = "label2";
             // 
             // label3
             // 
@@ -928,7 +916,7 @@
             // 
             AutoScaleDimensions = new SizeF(12F, 30F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1182, 1131);
+            ClientSize = new Size(1113, 1131);
             Controls.Add(label37);
             Controls.Add(label38);
             Controls.Add(pictureBox19);
@@ -1008,10 +996,9 @@
             Controls.Add(label3);
             Controls.Add(label4);
             Controls.Add(pictureBox2);
-            Controls.Add(label2);
-            Controls.Add(label1);
-            Controls.Add(pictureBox1);
-            Controls.Add(label_Read);
+            Controls.Add(DLA_IP_1);
+            Controls.Add(ULA_IP_1);
+            Controls.Add(PB_IP_1);
             Controls.Add(label_TBR);
             Controls.Add(label_In_Progress);
             Controls.Add(menuStrip1);
@@ -1021,7 +1008,7 @@
             Text = "Form1";
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PB_IP_1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
@@ -1060,10 +1047,9 @@
         private ToolStripMenuItem plusToolStripMenuItem;
         private Label label_In_Progress;
         private Label label_TBR;
-        private Label label_Read;
-        private PictureBox pictureBox1;
-        private Label label1;
-        private Label label2;
+        private PictureBox PB_IP_1;
+        private Label ULA_IP_1;
+        private Label DLA_IP_1;
         private Label label3;
         private Label label4;
         private PictureBox pictureBox2;
