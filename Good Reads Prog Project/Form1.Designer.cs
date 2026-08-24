@@ -30,7 +30,6 @@
         {
             menuStrip1 = new MenuStrip();
             minSideToolStripMenuItem = new ToolStripMenuItem();
-            anbefalingerToolStripMenuItem = new ToolStripMenuItem();
             plusToolStripMenuItem = new ToolStripMenuItem();
             label_In_Progress = new Label();
             label_TBR = new Label();
@@ -149,42 +148,35 @@
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { minSideToolStripMenuItem, anbefalingerToolStripMenuItem, plusToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { minSideToolStripMenuItem, plusToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Padding = new Padding(10, 3, 0, 3);
-            menuStrip1.Size = new Size(1206, 42);
+            menuStrip1.Padding = new Padding(9, 3, 0, 3);
+            menuStrip1.Size = new Size(1113, 40);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
             // minSideToolStripMenuItem
             // 
             minSideToolStripMenuItem.Name = "minSideToolStripMenuItem";
-            minSideToolStripMenuItem.Size = new Size(126, 36);
+            minSideToolStripMenuItem.Size = new Size(110, 34);
             minSideToolStripMenuItem.Text = "Min side";
             minSideToolStripMenuItem.Click += minSideToolStripMenuItem_Click;
-            // 
-            // anbefalingerToolStripMenuItem
-            // 
-            anbefalingerToolStripMenuItem.Name = "anbefalingerToolStripMenuItem";
-            anbefalingerToolStripMenuItem.Size = new Size(171, 36);
-            anbefalingerToolStripMenuItem.Text = "Anbefalinger";
-            anbefalingerToolStripMenuItem.Click += anbefalingerToolStripMenuItem_Click;
             // 
             // plusToolStripMenuItem
             // 
             plusToolStripMenuItem.Name = "plusToolStripMenuItem";
-            plusToolStripMenuItem.Size = new Size(84, 36);
-            plusToolStripMenuItem.Text = "Plus ";
+            plusToolStripMenuItem.Size = new Size(76, 34);
+            plusToolStripMenuItem.Text = "Tilføj";
             plusToolStripMenuItem.Click += plusToolStripMenuItem_Click;
             // 
             // label_In_Progress
             // 
             label_In_Progress.AutoSize = true;
-            label_In_Progress.Location = new Point(20, 73);
+            label_In_Progress.Location = new Point(18, 68);
             label_In_Progress.Margin = new Padding(4, 0, 4, 0);
             label_In_Progress.Name = "label_In_Progress";
-            label_In_Progress.Size = new Size(139, 32);
+            label_In_Progress.Size = new Size(122, 30);
             label_In_Progress.TabIndex = 2;
             label_In_Progress.Text = "In progress ";
             label_In_Progress.Click += label_In_Progress_Click;
@@ -192,245 +184,245 @@
             // label_TBR
             // 
             label_TBR.AutoSize = true;
-            label_TBR.Location = new Point(20, 442);
+            label_TBR.Location = new Point(18, 414);
             label_TBR.Margin = new Padding(4, 0, 4, 0);
             label_TBR.Name = "label_TBR";
-            label_TBR.Size = new Size(55, 32);
+            label_TBR.Size = new Size(49, 30);
             label_TBR.TabIndex = 3;
             label_TBR.Text = "TBR";
             label_TBR.Click += label_TBR_Click;
             // 
             // PB_IP_1
             // 
-            PB_IP_1.Location = new Point(29, 118);
+            PB_IP_1.Location = new Point(27, 111);
             PB_IP_1.Name = "PB_IP_1";
-            PB_IP_1.Size = new Size(122, 213);
+            PB_IP_1.Size = new Size(113, 200);
             PB_IP_1.TabIndex = 6;
             PB_IP_1.TabStop = false;
             // 
             // ULA_IP_1
             // 
             ULA_IP_1.AutoSize = true;
-            ULA_IP_1.Location = new Point(29, 335);
+            ULA_IP_1.Location = new Point(27, 314);
             ULA_IP_1.Name = "ULA_IP_1";
-            ULA_IP_1.Size = new Size(78, 32);
+            ULA_IP_1.Size = new Size(68, 30);
             ULA_IP_1.TabIndex = 7;
             ULA_IP_1.Text = "label1";
             // 
             // DLA_IP_1
             // 
             DLA_IP_1.AutoSize = true;
-            DLA_IP_1.Location = new Point(29, 367);
+            DLA_IP_1.Location = new Point(27, 344);
             DLA_IP_1.Name = "DLA_IP_1";
-            DLA_IP_1.Size = new Size(78, 32);
+            DLA_IP_1.Size = new Size(68, 30);
             DLA_IP_1.TabIndex = 8;
             DLA_IP_1.Text = "label2";
             // 
             // DLA_IP_2
             // 
             DLA_IP_2.AutoSize = true;
-            DLA_IP_2.Location = new Point(158, 367);
+            DLA_IP_2.Location = new Point(146, 344);
             DLA_IP_2.Name = "DLA_IP_2";
-            DLA_IP_2.Size = new Size(78, 32);
+            DLA_IP_2.Size = new Size(68, 30);
             DLA_IP_2.TabIndex = 11;
             DLA_IP_2.Text = "label3";
             // 
             // ULA_IP_2
             // 
             ULA_IP_2.AutoSize = true;
-            ULA_IP_2.Location = new Point(158, 335);
+            ULA_IP_2.Location = new Point(146, 314);
             ULA_IP_2.Name = "ULA_IP_2";
-            ULA_IP_2.Size = new Size(78, 32);
+            ULA_IP_2.Size = new Size(68, 30);
             ULA_IP_2.TabIndex = 10;
             ULA_IP_2.Text = "label4";
             // 
             // PB_IP_2
             // 
-            PB_IP_2.Location = new Point(158, 118);
+            PB_IP_2.Location = new Point(146, 111);
             PB_IP_2.Name = "PB_IP_2";
-            PB_IP_2.Size = new Size(122, 213);
+            PB_IP_2.Size = new Size(113, 200);
             PB_IP_2.TabIndex = 9;
             PB_IP_2.TabStop = false;
             // 
             // DLA_IP_4
             // 
             DLA_IP_4.AutoSize = true;
-            DLA_IP_4.Location = new Point(416, 367);
+            DLA_IP_4.Location = new Point(384, 344);
             DLA_IP_4.Name = "DLA_IP_4";
-            DLA_IP_4.Size = new Size(78, 32);
+            DLA_IP_4.Size = new Size(68, 30);
             DLA_IP_4.TabIndex = 17;
             DLA_IP_4.Text = "label5";
             // 
             // ULA_IP_4
             // 
             ULA_IP_4.AutoSize = true;
-            ULA_IP_4.Location = new Point(416, 335);
+            ULA_IP_4.Location = new Point(384, 314);
             ULA_IP_4.Name = "ULA_IP_4";
-            ULA_IP_4.Size = new Size(78, 32);
+            ULA_IP_4.Size = new Size(68, 30);
             ULA_IP_4.TabIndex = 16;
             ULA_IP_4.Text = "label6";
             // 
             // PB_IP_4
             // 
-            PB_IP_4.Location = new Point(416, 118);
+            PB_IP_4.Location = new Point(384, 111);
             PB_IP_4.Name = "PB_IP_4";
-            PB_IP_4.Size = new Size(122, 213);
+            PB_IP_4.Size = new Size(113, 200);
             PB_IP_4.TabIndex = 15;
             PB_IP_4.TabStop = false;
             // 
             // DLA_IP_3
             // 
             DLA_IP_3.AutoSize = true;
-            DLA_IP_3.Location = new Point(287, 367);
+            DLA_IP_3.Location = new Point(265, 344);
             DLA_IP_3.Name = "DLA_IP_3";
-            DLA_IP_3.Size = new Size(78, 32);
+            DLA_IP_3.Size = new Size(68, 30);
             DLA_IP_3.TabIndex = 14;
             DLA_IP_3.Text = "label7";
             // 
             // ULA_IP_3
             // 
             ULA_IP_3.AutoSize = true;
-            ULA_IP_3.Location = new Point(287, 335);
+            ULA_IP_3.Location = new Point(265, 314);
             ULA_IP_3.Name = "ULA_IP_3";
-            ULA_IP_3.Size = new Size(78, 32);
+            ULA_IP_3.Size = new Size(68, 30);
             ULA_IP_3.TabIndex = 13;
             ULA_IP_3.Text = "label8";
             // 
             // PB_IP_3
             // 
-            PB_IP_3.Location = new Point(287, 118);
+            PB_IP_3.Location = new Point(265, 111);
             PB_IP_3.Name = "PB_IP_3";
-            PB_IP_3.Size = new Size(122, 213);
+            PB_IP_3.Size = new Size(113, 200);
             PB_IP_3.TabIndex = 12;
             PB_IP_3.TabStop = false;
             // 
             // DLA_IP_6
             // 
             DLA_IP_6.AutoSize = true;
-            DLA_IP_6.Location = new Point(674, 367);
+            DLA_IP_6.Location = new Point(622, 344);
             DLA_IP_6.Name = "DLA_IP_6";
-            DLA_IP_6.Size = new Size(78, 32);
+            DLA_IP_6.Size = new Size(68, 30);
             DLA_IP_6.TabIndex = 23;
             DLA_IP_6.Text = "label9";
             // 
             // ULA_IP_6
             // 
             ULA_IP_6.AutoSize = true;
-            ULA_IP_6.Location = new Point(674, 335);
+            ULA_IP_6.Location = new Point(622, 314);
             ULA_IP_6.Name = "ULA_IP_6";
-            ULA_IP_6.Size = new Size(91, 32);
+            ULA_IP_6.Size = new Size(79, 30);
             ULA_IP_6.TabIndex = 22;
             ULA_IP_6.Text = "label10";
             // 
             // PB_IP_6
             // 
-            PB_IP_6.Location = new Point(674, 118);
+            PB_IP_6.Location = new Point(622, 111);
             PB_IP_6.Name = "PB_IP_6";
-            PB_IP_6.Size = new Size(122, 213);
+            PB_IP_6.Size = new Size(113, 200);
             PB_IP_6.TabIndex = 21;
             PB_IP_6.TabStop = false;
             // 
             // DLA_IP_5
             // 
             DLA_IP_5.AutoSize = true;
-            DLA_IP_5.Location = new Point(545, 367);
+            DLA_IP_5.Location = new Point(503, 344);
             DLA_IP_5.Name = "DLA_IP_5";
-            DLA_IP_5.Size = new Size(91, 32);
+            DLA_IP_5.Size = new Size(79, 30);
             DLA_IP_5.TabIndex = 20;
             DLA_IP_5.Text = "label11";
             // 
             // ULA_IP_5
             // 
             ULA_IP_5.AutoSize = true;
-            ULA_IP_5.Location = new Point(545, 335);
+            ULA_IP_5.Location = new Point(503, 314);
             ULA_IP_5.Name = "ULA_IP_5";
-            ULA_IP_5.Size = new Size(91, 32);
+            ULA_IP_5.Size = new Size(79, 30);
             ULA_IP_5.TabIndex = 19;
             ULA_IP_5.Text = "label12";
             // 
             // PB_IP_5
             // 
-            PB_IP_5.Location = new Point(545, 118);
+            PB_IP_5.Location = new Point(503, 111);
             PB_IP_5.Name = "PB_IP_5";
-            PB_IP_5.Size = new Size(122, 213);
+            PB_IP_5.Size = new Size(113, 200);
             PB_IP_5.TabIndex = 18;
             PB_IP_5.TabStop = false;
             // 
             // DLA_IP_8
             // 
             DLA_IP_8.AutoSize = true;
-            DLA_IP_8.Location = new Point(932, 367);
+            DLA_IP_8.Location = new Point(860, 344);
             DLA_IP_8.Name = "DLA_IP_8";
-            DLA_IP_8.Size = new Size(91, 32);
+            DLA_IP_8.Size = new Size(79, 30);
             DLA_IP_8.TabIndex = 29;
             DLA_IP_8.Text = "label13";
             // 
             // ULA_IP_8
             // 
             ULA_IP_8.AutoSize = true;
-            ULA_IP_8.Location = new Point(932, 335);
+            ULA_IP_8.Location = new Point(860, 314);
             ULA_IP_8.Name = "ULA_IP_8";
-            ULA_IP_8.Size = new Size(91, 32);
+            ULA_IP_8.Size = new Size(79, 30);
             ULA_IP_8.TabIndex = 28;
             ULA_IP_8.Text = "label14";
             // 
             // PB_IP_8
             // 
-            PB_IP_8.Location = new Point(932, 118);
+            PB_IP_8.Location = new Point(860, 111);
             PB_IP_8.Name = "PB_IP_8";
-            PB_IP_8.Size = new Size(122, 213);
+            PB_IP_8.Size = new Size(113, 200);
             PB_IP_8.TabIndex = 27;
             PB_IP_8.TabStop = false;
             // 
             // DLA_IP_7
             // 
             DLA_IP_7.AutoSize = true;
-            DLA_IP_7.Location = new Point(803, 367);
+            DLA_IP_7.Location = new Point(741, 344);
             DLA_IP_7.Name = "DLA_IP_7";
-            DLA_IP_7.Size = new Size(91, 32);
+            DLA_IP_7.Size = new Size(79, 30);
             DLA_IP_7.TabIndex = 26;
             DLA_IP_7.Text = "label15";
             // 
             // ULA_IP_7
             // 
             ULA_IP_7.AutoSize = true;
-            ULA_IP_7.Location = new Point(803, 335);
+            ULA_IP_7.Location = new Point(741, 314);
             ULA_IP_7.Name = "ULA_IP_7";
-            ULA_IP_7.Size = new Size(91, 32);
+            ULA_IP_7.Size = new Size(79, 30);
             ULA_IP_7.TabIndex = 25;
             ULA_IP_7.Text = "label16";
             // 
             // PB_IP_7
             // 
-            PB_IP_7.Location = new Point(803, 118);
+            PB_IP_7.Location = new Point(741, 111);
             PB_IP_7.Name = "PB_IP_7";
-            PB_IP_7.Size = new Size(122, 213);
+            PB_IP_7.Size = new Size(113, 200);
             PB_IP_7.TabIndex = 24;
             PB_IP_7.TabStop = false;
             // 
             // DLA_IP_9
             // 
             DLA_IP_9.AutoSize = true;
-            DLA_IP_9.Location = new Point(1061, 367);
+            DLA_IP_9.Location = new Point(979, 344);
             DLA_IP_9.Name = "DLA_IP_9";
-            DLA_IP_9.Size = new Size(91, 32);
+            DLA_IP_9.Size = new Size(79, 30);
             DLA_IP_9.TabIndex = 32;
             DLA_IP_9.Text = "label17";
             // 
             // ULA_IP_9
             // 
             ULA_IP_9.AutoSize = true;
-            ULA_IP_9.Location = new Point(1061, 335);
+            ULA_IP_9.Location = new Point(979, 314);
             ULA_IP_9.Name = "ULA_IP_9";
-            ULA_IP_9.Size = new Size(91, 32);
+            ULA_IP_9.Size = new Size(79, 30);
             ULA_IP_9.TabIndex = 31;
             ULA_IP_9.Text = "label18";
             // 
             // PB_IP_9
             // 
-            PB_IP_9.Location = new Point(1061, 118);
+            PB_IP_9.Location = new Point(979, 111);
             PB_IP_9.Name = "PB_IP_9";
-            PB_IP_9.Size = new Size(122, 213);
+            PB_IP_9.Size = new Size(113, 200);
             PB_IP_9.TabIndex = 30;
             PB_IP_9.TabStop = false;
             // 
@@ -680,17 +672,17 @@
             // ULA_R_9
             // 
             ULA_R_9.AutoSize = true;
-            ULA_R_9.Location = new Point(1051, 1017);
+            ULA_R_9.Location = new Point(970, 953);
             ULA_R_9.Name = "ULA_R_9";
-            ULA_R_9.Size = new Size(91, 32);
+            ULA_R_9.Size = new Size(79, 30);
             ULA_R_9.TabIndex = 87;
             ULA_R_9.Text = "label38";
             // 
             // PB_R_9
             // 
-            PB_R_9.Location = new Point(1051, 800);
+            PB_R_9.Location = new Point(970, 750);
             PB_R_9.Name = "PB_R_9";
-            PB_R_9.Size = new Size(122, 213);
+            PB_R_9.Size = new Size(113, 200);
             PB_R_9.TabIndex = 86;
             PB_R_9.TabStop = false;
             // 
@@ -706,17 +698,17 @@
             // ULA_R_8
             // 
             ULA_R_8.AutoSize = true;
-            ULA_R_8.Location = new Point(922, 1017);
+            ULA_R_8.Location = new Point(851, 953);
             ULA_R_8.Name = "ULA_R_8";
-            ULA_R_8.Size = new Size(91, 32);
+            ULA_R_8.Size = new Size(79, 30);
             ULA_R_8.TabIndex = 84;
             ULA_R_8.Text = "label40";
             // 
             // PB_R_8
             // 
-            PB_R_8.Location = new Point(922, 800);
+            PB_R_8.Location = new Point(851, 750);
             PB_R_8.Name = "PB_R_8";
-            PB_R_8.Size = new Size(122, 213);
+            PB_R_8.Size = new Size(113, 200);
             PB_R_8.TabIndex = 83;
             PB_R_8.TabStop = false;
             // 
@@ -732,17 +724,17 @@
             // ULA_R_7
             // 
             ULA_R_7.AutoSize = true;
-            ULA_R_7.Location = new Point(793, 1017);
+            ULA_R_7.Location = new Point(732, 953);
             ULA_R_7.Name = "ULA_R_7";
-            ULA_R_7.Size = new Size(91, 32);
+            ULA_R_7.Size = new Size(79, 30);
             ULA_R_7.TabIndex = 81;
             ULA_R_7.Text = "label42";
             // 
             // PB_R_7
             // 
-            PB_R_7.Location = new Point(793, 800);
+            PB_R_7.Location = new Point(732, 750);
             PB_R_7.Name = "PB_R_7";
-            PB_R_7.Size = new Size(122, 213);
+            PB_R_7.Size = new Size(113, 200);
             PB_R_7.TabIndex = 80;
             PB_R_7.TabStop = false;
             // 
@@ -758,17 +750,17 @@
             // ULA_R_6
             // 
             ULA_R_6.AutoSize = true;
-            ULA_R_6.Location = new Point(664, 1017);
+            ULA_R_6.Location = new Point(613, 953);
             ULA_R_6.Name = "ULA_R_6";
-            ULA_R_6.Size = new Size(91, 32);
+            ULA_R_6.Size = new Size(79, 30);
             ULA_R_6.TabIndex = 78;
             ULA_R_6.Text = "label44";
             // 
             // PB_R_6
             // 
-            PB_R_6.Location = new Point(664, 800);
+            PB_R_6.Location = new Point(613, 750);
             PB_R_6.Name = "PB_R_6";
-            PB_R_6.Size = new Size(122, 213);
+            PB_R_6.Size = new Size(113, 200);
             PB_R_6.TabIndex = 77;
             PB_R_6.TabStop = false;
             // 
@@ -784,17 +776,17 @@
             // ULA_R_5
             // 
             ULA_R_5.AutoSize = true;
-            ULA_R_5.Location = new Point(535, 1017);
+            ULA_R_5.Location = new Point(494, 953);
             ULA_R_5.Name = "ULA_R_5";
-            ULA_R_5.Size = new Size(91, 32);
+            ULA_R_5.Size = new Size(79, 30);
             ULA_R_5.TabIndex = 75;
             ULA_R_5.Text = "label46";
             // 
             // PB_R_5
             // 
-            PB_R_5.Location = new Point(535, 800);
+            PB_R_5.Location = new Point(494, 750);
             PB_R_5.Name = "PB_R_5";
-            PB_R_5.Size = new Size(122, 213);
+            PB_R_5.Size = new Size(113, 200);
             PB_R_5.TabIndex = 74;
             PB_R_5.TabStop = false;
             // 
@@ -810,17 +802,17 @@
             // ULA_R_4
             // 
             ULA_R_4.AutoSize = true;
-            ULA_R_4.Location = new Point(406, 1017);
+            ULA_R_4.Location = new Point(375, 953);
             ULA_R_4.Name = "ULA_R_4";
-            ULA_R_4.Size = new Size(91, 32);
+            ULA_R_4.Size = new Size(79, 30);
             ULA_R_4.TabIndex = 72;
             ULA_R_4.Text = "label48";
             // 
             // PB_R_4
             // 
-            PB_R_4.Location = new Point(406, 800);
+            PB_R_4.Location = new Point(375, 750);
             PB_R_4.Name = "PB_R_4";
-            PB_R_4.Size = new Size(122, 213);
+            PB_R_4.Size = new Size(113, 200);
             PB_R_4.TabIndex = 71;
             PB_R_4.TabStop = false;
             // 
@@ -836,17 +828,17 @@
             // ULA_R_3
             // 
             ULA_R_3.AutoSize = true;
-            ULA_R_3.Location = new Point(277, 1017);
+            ULA_R_3.Location = new Point(256, 953);
             ULA_R_3.Name = "ULA_R_3";
-            ULA_R_3.Size = new Size(91, 32);
+            ULA_R_3.Size = new Size(79, 30);
             ULA_R_3.TabIndex = 69;
             ULA_R_3.Text = "label50";
             // 
             // PB_R_3
             // 
-            PB_R_3.Location = new Point(277, 800);
+            PB_R_3.Location = new Point(256, 750);
             PB_R_3.Name = "PB_R_3";
-            PB_R_3.Size = new Size(122, 213);
+            PB_R_3.Size = new Size(113, 200);
             PB_R_3.TabIndex = 68;
             PB_R_3.TabStop = false;
             // 
@@ -862,17 +854,17 @@
             // ULA_R_2
             // 
             ULA_R_2.AutoSize = true;
-            ULA_R_2.Location = new Point(148, 1017);
+            ULA_R_2.Location = new Point(137, 953);
             ULA_R_2.Name = "ULA_R_2";
-            ULA_R_2.Size = new Size(91, 32);
+            ULA_R_2.Size = new Size(79, 30);
             ULA_R_2.TabIndex = 66;
             ULA_R_2.Text = "label52";
             // 
             // PB_R_2
             // 
-            PB_R_2.Location = new Point(148, 800);
+            PB_R_2.Location = new Point(137, 750);
             PB_R_2.Name = "PB_R_2";
-            PB_R_2.Size = new Size(122, 213);
+            PB_R_2.Size = new Size(113, 200);
             PB_R_2.TabIndex = 65;
             PB_R_2.TabStop = false;
             // 
@@ -888,33 +880,33 @@
             // ULA_R_1
             // 
             ULA_R_1.AutoSize = true;
-            ULA_R_1.Location = new Point(20, 1017);
+            ULA_R_1.Location = new Point(18, 953);
             ULA_R_1.Name = "ULA_R_1";
-            ULA_R_1.Size = new Size(91, 32);
+            ULA_R_1.Size = new Size(79, 30);
             ULA_R_1.TabIndex = 63;
             ULA_R_1.Text = "label54";
             // 
             // PB_R_1
             // 
-            PB_R_1.Location = new Point(20, 800);
+            PB_R_1.Location = new Point(18, 750);
             PB_R_1.Name = "PB_R_1";
-            PB_R_1.Size = new Size(122, 213);
+            PB_R_1.Size = new Size(113, 200);
             PB_R_1.TabIndex = 62;
             PB_R_1.TabStop = false;
             // 
             // label55
             // 
             label55.AutoSize = true;
-            label55.Location = new Point(14, 765);
+            label55.Location = new Point(13, 717);
             label55.Margin = new Padding(4, 0, 4, 0);
             label55.Name = "label55";
-            label55.Size = new Size(66, 32);
+            label55.Size = new Size(59, 30);
             label55.TabIndex = 61;
             label55.Text = "Read";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(13F, 32F);
+            AutoScaleDimensions = new SizeF(12F, 30F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1206, 1206);
             Controls.Add(DLA_R_9);
@@ -1043,7 +1035,6 @@
 
         private MenuStrip menuStrip1;
         private ToolStripMenuItem minSideToolStripMenuItem;
-        private ToolStripMenuItem anbefalingerToolStripMenuItem;
         private ToolStripMenuItem plusToolStripMenuItem;
         private Label label_In_Progress;
         private Label label_TBR;
