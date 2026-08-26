@@ -14,13 +14,6 @@ namespace Good_Reads_Prog_Project
             this.Hide();*/
         }
 
-        private void anbefalingerToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Anbefalinger nyForm = new Anbefalinger();
-            nyForm.Show();
-            this.Hide();
-        }
-
         private void plusToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
@@ -52,6 +45,11 @@ namespace Good_Reads_Prog_Project
         }
 
         private void listBox_Read_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }
