@@ -17,7 +17,7 @@ namespace Good_Reads_Prog_Project.functions
                 IF OBJECT_ID(N'dbo.authorTable', N'U') IS NULL
                 BEGIN
                     CREATE TABLE [dbo].[authorTable](
-                        [authorId] [INT] NOT NULL,
+                        [authorId] [INT] IDENTITY(1,1) NOT NULL,
                         [authorName] [VARCHAR](50) NOT NULL,
                         [authoredBooks] [VARCHAR](400) NULL,
                         CONSTRAINT [PK_authorTable] PRIMARY KEY CLUSTERED ([authorId] ASC)
@@ -28,7 +28,7 @@ namespace Good_Reads_Prog_Project.functions
                 IF OBJECT_ID(N'dbo.bookTable', N'U') IS NULL
                 BEGIN
                     CREATE TABLE [dbo].[bookTable](
-                        [bookId] [INT] NOT NULL,
+                        [bookId] [int] IDENTITY(1,1) NOT NULL,
                         [bookName] [VARCHAR](50) NOT NULL,
                         [bookDescription] [VARCHAR](255) NOT NULL,
                         [bookAuthor] [INT] NOT NULL,
@@ -45,7 +45,7 @@ namespace Good_Reads_Prog_Project.functions
                 IF OBJECT_ID(N'dbo.userTable', N'U') IS NULL
                 BEGIN
                     CREATE TABLE [dbo].[userTable](
-                        [userId] [INT] NOT NULL,
+                        [userId] [INT] IDENTITY(1,1) NOT NULL,
                         [userName] [VARCHAR](50) NOT NULL,
                         [userHaveRead] [VARCHAR](MAX) NULL,
                         [userToBeRead] [VARCHAR](MAX) NULL,
