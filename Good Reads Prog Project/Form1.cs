@@ -23,7 +23,6 @@ namespace Good_Reads_Prog_Project
 
                 string ipBookTitle = functions.dbRead.ReadDB("bookTable", "bookId", ipBookId, "bookTitle");
 
-                // Safely resolve author id and name
                 string authorIdStr = functions.dbRead.ReadDB("bookTable", "bookId", ipBookId, "bookAuthor");
                 string ipAuthorName = null;
                 if (int.TryParse(authorIdStr, out int authorId))
@@ -31,15 +30,12 @@ namespace Good_Reads_Prog_Project
                     ipAuthorName = functions.dbRead.ReadDB("authorTable", "authorId", authorId, "authorName");
                 }
 
-                // Fallbacks for missing text data
                 if (string.IsNullOrWhiteSpace(ipBookTitle)) ipBookTitle = "(Title unavailable)";
                 if (string.IsNullOrWhiteSpace(ipAuthorName)) ipAuthorName = "(Author unavailable)";
 
-                // 1. Fetch the raw bytes from the database
                 byte[] imageData = functions.dbRead.ReadImageBytesDB("bookTable", "bookId", ipBookId, "bookCoverImg");
                 Image ipBookImg = null;
 
-                // 2. Convert the byte array into an Image using a MemoryStream
                 if (imageData != null && imageData.Length > 0)
                 {
                     try
@@ -47,13 +43,10 @@ namespace Good_Reads_Prog_Project
                         using (var ms = new MemoryStream(imageData))
                         using (var tempImg = Image.FromStream(ms))
                         {
-                            // Make a copy so we don't depend on the stream lifetime
                             ipBookImg = new Bitmap(tempImg);
                         }
                     }
                     catch (ArgumentException)
-                    {
-                        // invalid image bytes -> leave ipBookImg null or set placeholder
                         ipBookImg = null;
                     }
                     catch (Exception)

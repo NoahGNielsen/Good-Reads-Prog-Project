@@ -36,7 +36,6 @@ namespace Good_Reads_Prog_Project.functions
             }
             catch (Exception)
             {
-                // swallow exceptions but return null so callers can detect failure
                 result = null;
             }
 
@@ -97,20 +96,17 @@ namespace Good_Reads_Prog_Project.functions
                 {
                     object result = cmd.ExecuteScalar();
 
-                    // Only accept results that are actually byte[]
                     if (result is byte[] bytes)
                     {
                         imageData = bytes;
                     }
                     else
                     {
-                        // unexpected result type (null or non-bytes) -> return null
                         imageData = null;
                     }
                 }
                 catch (Exception)
                 {
-                    // on any DB error return null so caller can handle gracefully
                     imageData = null;
                 }
             }
