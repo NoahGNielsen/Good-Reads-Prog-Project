@@ -12,7 +12,9 @@ namespace Good_Reads_Prog_Project
 
         private void plusToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Form2 form2 = new Form2();
+            form2.Show();
+            this.Hide();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -47,6 +49,7 @@ namespace Good_Reads_Prog_Project
                         }
                     }
                     catch (ArgumentException)
+                    { 
                         ipBookImg = null;
                     }
                     catch (Exception)

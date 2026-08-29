@@ -32,7 +32,7 @@ namespace Good_Reads_Prog_Project.functions
                         [bookName] [VARCHAR](50) NOT NULL,
                         [bookDescription] [VARCHAR](255) NOT NULL,
                         [bookAuthor] [INT] NOT NULL,
-                        [bookCoverImg] [IMAGE] NOT NULL,
+                        [bookCoverImg] [IMAGE] NULL,
                         [bookUserReviews] [VARCHAR](MAX) NULL,
                         [bookAvgReviewScore] [INT] NULL,
                         [userReads] [VARCHAR](MAX) NULL,

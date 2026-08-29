@@ -9,7 +9,7 @@ namespace Good_Reads_Prog_Project.functions
         public static int GenerateRandomNumber(int max)
         {
             Random random = new Random();
-            return random.Next(1, max);
+            return random.Next(1, max +1);
         }
     }
 }
