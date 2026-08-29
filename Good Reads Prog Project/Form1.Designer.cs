@@ -248,6 +248,7 @@
             PB_IP_2.Size = new Size(113, 200);
             PB_IP_2.TabIndex = 9;
             PB_IP_2.TabStop = false;
+            PB_IP_2.Click += PB_IP_2_Click;
             // 
             // DLA_IP_4
             // 

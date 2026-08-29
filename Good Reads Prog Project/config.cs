@@ -6,7 +6,7 @@ namespace Good_Reads_Prog_Project
 {
     public class Config
     {
-        public readonly string DBAccessString = @"Data Source=LAPTOP-M65QG9A2\SQLEXPRESS01;Initial Catalog=goodBooksDB;Integrated Security=True;TrustServerCertificate=True";
+        public readonly string DBAccessString = @"Data Source=localhost\sqlexpress;Initial Catalog=GoodBooks;Integrated Security=True;TrustServerCertificate=True";
         public readonly bool devMode = true;
     }
 }
