@@ -7,34 +7,111 @@ namespace Good_Reads_Prog_Project.functions
 {
     public class dbRead
     {
-        public static string ReadData(string query)
+        public static string ReadDB(string tableName, string idName, int id, string columnName)
         {
-            var config = new Config();
-            string result = string.Empty;
-            using (var connection = new Microsoft.Data.SqlClient.SqlConnection(config.DBAccessString))
+            Config config = new Config();
+            string result = null;
+
+            string sSQL = $"SELECT [{columnName}] FROM [{tableName}] WHERE [{idName}] = {id}";
+
+            SqlConnection conn = new SqlConnection(config.DBAccessString);
+
+            try
             {
-                try
+                conn.Open();
+                SqlCommand command = new SqlCommand(sSQL, conn);
+                SqlDataReader reader = command.ExecuteReader();
+
+                while (reader.Read())
                 {
-                    connection.Open();
-                    using (var command = new Microsoft.Data.SqlClient.SqlCommand(query, connection))
+                    // return the first value as string (preserve null if DB has null)
+                    if (reader[0] != DBNull.Value)
                     {
-                        using (var reader = command.ExecuteReader())
-                        {
-                            while (reader.Read())
-                            {
-                                // Assuming you want to read the first column as a string
-                                result += reader[0].ToString() + Environment.NewLine;
-                            }
-                        }
+                        result = reader[0].ToString();
                     }
                 }
-                catch (Exception ex)
+
+                reader.Close();
+                conn.Close();
+            }
+            catch (Exception)
+            {
+                result = null;
+            }
+
+            return result;
+        }
+
+        public static int dbIdMax(string tableName, string idName)
+        {
+            Config config = new Config();
+            int maxId = 0;
+            string result = "";
+
+            string sSQL = $"SELECT MAX([{idName}]) FROM [{tableName}]";
+
+            SqlConnection conn = new SqlConnection(config.DBAccessString);
+
+            try
+            {
+                conn.Open();
+                SqlCommand command = new SqlCommand(sSQL, conn);
+                SqlDataReader reader = command.ExecuteReader();
+
+                while (reader.Read())
                 {
-                    // Handle exceptions (e.g., log them)
-                    result = "Error: " + ex.Message;
+                    if (reader[0] != DBNull.Value)
+                    {
+                        maxId = Convert.ToInt32(reader[0]);
+                    }
+                }
+
+                reader.Close();
+                conn.Close();
+            }
+            catch (Exception ex)
+            {
+                result = "Error: " + ex.Message;
+            }
+
+            return maxId;
+        }
+
+        public static byte[] ReadImageBytesDB(string tableName, string idColumn, int idValue, string imageColumn)
+        {
+            byte[] imageData = null;
+            var config = new Config();
+
+            string connectionString = config.DBAccessString;
+
+            string query = $"SELECT {imageColumn} FROM {tableName} WHERE {idColumn} = @id";
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            using (SqlCommand cmd = new SqlCommand(query, conn))
+            {
+                cmd.Parameters.AddWithValue("@id", idValue);
+                conn.Open();
+
+                try
+                {
+                    object result = cmd.ExecuteScalar();
+
+                    if (result is byte[] bytes)
+                    {
+                        imageData = bytes;
+                    }
+                    else
+                    {
+                        imageData = null;
+                    }
+                }
+                catch (Exception)
+                {
+                    imageData = null;
                 }
             }
-            return result;
+
+            return imageData;
         }
     }
 }
