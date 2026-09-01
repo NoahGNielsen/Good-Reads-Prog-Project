@@ -12,6 +12,7 @@ namespace Good_Reads_Prog_Project
 
         private void plusToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //skifter til form2 og fjerne form 1
             Form2 form2 = new Form2();
             form2.Show();
             this.Hide();

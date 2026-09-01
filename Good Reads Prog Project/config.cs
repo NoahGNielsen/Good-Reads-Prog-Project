@@ -6,6 +6,7 @@ namespace Good_Reads_Prog_Project
 {
     public class Config
     {
+        // opretter forbindelse til database
         public readonly string DBAccessString = @"Data Source=localhost\sqlexpress;Initial Catalog=GoodBooks;Integrated Security=True;TrustServerCertificate=True";
         public readonly bool devMode = true;
 

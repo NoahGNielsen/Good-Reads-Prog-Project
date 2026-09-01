@@ -41,14 +41,15 @@
             label4 = new Label();
             label3 = new Label();
             panel2 = new Panel();
+            textBoxAnmeldelseNavn = new TextBox();
+            label8 = new Label();
             buttonTilføjBogAnmeldelse = new Button();
             textBoxAnmeldelse = new TextBox();
             textBoxRating = new TextBox();
             label7 = new Label();
             label6 = new Label();
             label5 = new Label();
-            label8 = new Label();
-            textBoxAnmeldelseNavn = new TextBox();
+            toolStripMenuItem1 = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
@@ -57,7 +58,7 @@
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(32, 32);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { minSideToolStripMenuItem, tilføjToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { minSideToolStripMenuItem, tilføjToolStripMenuItem, toolStripMenuItem1 });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(1147, 40);
@@ -178,6 +179,22 @@
             panel2.Size = new Size(1096, 335);
             panel2.TabIndex = 4;
             // 
+            // textBoxAnmeldelseNavn
+            // 
+            textBoxAnmeldelseNavn.Location = new Point(188, 83);
+            textBoxAnmeldelseNavn.Name = "textBoxAnmeldelseNavn";
+            textBoxAnmeldelseNavn.Size = new Size(794, 39);
+            textBoxAnmeldelseNavn.TabIndex = 13;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(12, 83);
+            label8.Name = "label8";
+            label8.Size = new Size(152, 32);
+            label8.TabIndex = 12;
+            label8.Text = "Navn på bog";
+            // 
             // buttonTilføjBogAnmeldelse
             // 
             buttonTilføjBogAnmeldelse.Location = new Point(462, 256);
@@ -229,21 +246,11 @@
             label5.TabIndex = 0;
             label5.Text = "Anmeldelse";
             // 
-            // label8
+            // toolStripMenuItem1
             // 
-            label8.AutoSize = true;
-            label8.Location = new Point(12, 83);
-            label8.Name = "label8";
-            label8.Size = new Size(152, 32);
-            label8.TabIndex = 12;
-            label8.Text = "Navn på bog";
-            // 
-            // textBoxAnmeldelseNavn
-            // 
-            textBoxAnmeldelseNavn.Location = new Point(188, 83);
-            textBoxAnmeldelseNavn.Name = "textBoxAnmeldelseNavn";
-            textBoxAnmeldelseNavn.Size = new Size(794, 39);
-            textBoxAnmeldelseNavn.TabIndex = 13;
+            toolStripMenuItem1.Name = "toolStripMenuItem1";
+            toolStripMenuItem1.Size = new Size(41, 36);
+            toolStripMenuItem1.Text = " ";
             // 
             // Form2
             // 
@@ -289,5 +296,6 @@
         private TextBox textBoxRating;
         private TextBox textBoxAnmeldelseNavn;
         private Label label8;
+        private ToolStripMenuItem toolStripMenuItem1;
     }
 }

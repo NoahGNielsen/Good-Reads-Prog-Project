@@ -9,6 +9,8 @@ namespace Good_Reads_Prog_Project.functions
     {
         public static bool InitializeDatabase()
         {
+            //opretter tabellerne
+
             Config config = new Config();
             string connectionString = config.DBAccessString;
 

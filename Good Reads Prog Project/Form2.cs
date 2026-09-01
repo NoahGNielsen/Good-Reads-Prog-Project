@@ -35,6 +35,7 @@ namespace Good_Reads_Prog_Project
 
         private void minSideToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
+            //ændre til form1 og fjerne form2
             Form1 form1 = new Form1();
             form1.Show();
             this.Hide();
